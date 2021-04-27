@@ -29,49 +29,51 @@ def verify_if_won(word, word_typed):
 
 def draw_doll(tentativas):
     if tentativas == 9:
-        print('           ')
+        print('-----------')
         print('     0     ')
     if tentativas == 8:
-        print('           ')
+        print('-----------')
         print('     0/    ')
     if tentativas == 7:
-        print('           ')
+        print('-----------')
         print('   \\0/    ')
     if tentativas == 6:
-        print('           ')
+        print('-----------')
         print('   \\0/    ')
-        print('    |     ')
+        print('    |      ')
     if tentativas == 5:
-        print('           ')
-        print('   \\0/    ')
+        print('----------')
+        print('   \\0/   ')
         print('    |     ')
         print('   /      ')
     if tentativas == 4:
-        print('           ')
-        print('   \\0/    ')
+        print('----------')
+        print('   \\0/   ')
         print('    |     ')
         print('   / \\   ')
     if tentativas == 3:
-        print('     |     ')
-        print('     |     ')
-        print('   \\0/    ')
+        print('----------')
+        print('   \\0|/  ')
         print('    |     ')
         print('   / \\   ')
     if tentativas == 2:
-        print('     |     ')
-        print('     |__   ')
-        print('   \\0/|   ')
+        print('----------')
+        print('   \\0_|/ ')
         print('    |     ')
         print('   / \\   ')
     if tentativas == 1:
         print('Essa é a sua última chance, está quase sufocando')
-        print('     |     ')
-        print('     |__   ')
-        print('   \\0/_|  ')
+        print('----------')
+        print('   \\0_|/ ')
         print('    |     ')
         print('   / \\   ')
     if tentativas == 0:
         print('Que pena, você perdeu!!!')
+        print('----------')
+        print('    0_|   ')
+        print('   /  \\  ')
+        print('    |     ')
+        print('   / \\   ')
         pergunta = input('Gostaria de jogar novamente? Digite s ou n')
         if pergunta.lower() == 's':
             game()
