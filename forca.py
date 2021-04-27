@@ -71,7 +71,7 @@ def draw_doll(tentativas):
         print('Que pena, você perdeu!!!')
         print('----------')
         print('    0_|   ')
-        print('   /  \\  ')
+        print('  /  \\   ')
         print('    |     ')
         print('   / \\   ')
         pergunta = input('Gostaria de jogar novamente? Digite s ou n')
